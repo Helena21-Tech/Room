@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./sass/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="page__content">
+    <header class="header">
+      <img src="/images/icon-hamburger.svg" alt="mobile navigation" class="hamburger open">
+      <img src="/images/icon-close.svg" alt="Close Navigation" class="hamburger close">
+      <img src="/images/logo.svg" alt="Page Logo" class="logo">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="page__content--1">
+      <div class="slide__container " >
+        <div class="slide__img" >
+          <picture>
+            <source
+              srcset="/images/mobile-image-hero-1.jpg"
+              media=" (max-width: 375px) "
+            />
+            <source
+              srcset="/images/desktop-image-hero-1.jpg"
+              media=" (max-width: 1440px) "
+            />
+            <img src="/images/desktop-image-hero-1.jpg" alt="Landing Page Img1">
+          </picture>
+          
+        </div>
+        <div class="slide__content">
+          <h1 class="heading--1 margin-top-big">Discover innovative ways to decorate
+</h1>
+          <p class="slide__content--text margin-top-medium">We provide unmatched quality, comfort, and style for property owners across the country. 
+  Our experts combine form and function in bringing your vision to life. Create a room in your 
+  own style with our collection and make your property a reflection of you and what you love.</p>
+          <button class="btn">Shop now <span><img src="/images/icon-arrow.svg" alt=" Button Arrow" class="arrow"></span></button>
+          
+        </div>
+      </div>
+      <div class="slide__container hidden" >
+        <div class="slide__img" >
+          <picture>
+            <source
+              srcset="/images/mobile-image-hero-2.jpg"
+              media=" (max-width: 375px) "
+            />
+            <source
+              srcset="/images/desktop-image-hero-2.jpg"
+              media=" (max-width: 1440px) "
+            />
+            <img src="/images/desktop-image-hero-2.jpg" alt="Landing Page Img2">
+          </picture>
+          
+        </div>
+        <div class="slide__content">
+          <h1 class="heading--1 margin-top-big">We are available all across the globe
+</h1>
+          <p class="slide__content--text margin-top-medium">With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+  store locator. Any questions? Don't hesitate to contact us today.</p>
+          <button class="btn">Shop now <span><img src="/images/icon-arrow.svg" alt=" Button Arrow" class="arrow"></span></button>
+         <!-- <button class="btn__controls btn__controls--left"><img src="/images/icon-angle-left.svg" alt="" class="leftIcon"> </button>
+          <button class="btn__controls btn__controls--right"><img src="/images/icon-angle-right.svg" alt="" class="rightIcon"></button>-->
+        </div>
+      </div>
+      <div class="slide__container hidden" >
+        <div class="slide__img" >
+          <picture>
+            <source
+              srcset="/images/mobile-image-hero-3.jpg"
+              media=" (max-width: 375px) "
+            />
+            <source
+              srcset="/images/desktop-image-hero-3.jpg"
+              media=" (max-width: 1440px) "
+            />
+            <img src="/images/desktop-image-hero-3.jpg" alt="Landing Page Img3">
+          </picture>
+
+        </div>
+        <div class="slide__content">
+          <h1 class="heading--1 margin-top-big">Manufactured with the best materials
+</h1>
+          <p class="slide__content--text margin-top-medium">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+  experience in this industry, we understand what customers want for their home and office.</p>
+          <button class="btn">Shop now <span><img src="/images/icon-arrow.svg" alt=" Button Arrow" class="arrow"></span></button>
+          <!--<button class="btn__controls btn__controls--left"><img src="/images/icon-angle-left.svg" alt="" class="leftIcon"> </button>
+          <button class="btn__controls btn__controls--right"><img src="/images/icon-angle-right.svg" alt="" class="rightIcon"></button>-->
+        </div>
+      </div>
+      <button class="btn__controls btn__controls--left"><img src="/images/icon-angle-left.svg" alt="" class="leftIcon"> </button>
+     <button class="btn__controls btn__controls--right"><img src="/images/icon-angle-right.svg" alt="" class="rightIcon"></button>
+    </section>
+    <section class="page__content--2">
+      <div class="second__content">
+        <div class="second__content--img">
+          <img src="/images/image-about-dark.jpg" alt=" Image about dark">
+        </div>
+        <div class="second__content--text">
+          <h3 class="heading--3 margin-top-medium">About our furniture</h3>
+          <p class="slide__text"> Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <div class="second__content--img">
+          <img src="/images/image-about-light.jpg" alt="Image about light">
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+
+  
+
+  
+
+  
+  
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+  <script defer src="slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.heading--1{
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+  @media screen and (max-width:1120px) {
+      font-size: 3rem;
+    }
+
+}
+.heading--3{
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  @media screen and (max-width:1000px) {
+      font-size: 1.8rem;
+    }
+    @media screen and (max-width:850px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width:600px) {
+      font-size: 1.6rem;
+    }
+}
+
+p{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $color-dark-gray;
+  @media screen and (max-width:1120px) {
+      font-size: 1.4rem;
+    }
+ @media screen and (max-width:850px) {
+          font-size: 2rem;
+        }
+@media screen and (max-width:600px) {
+  font-size: 1.8rem;
+}
+@media screen and (max-width:400px) {
+  font-size: 1.6rem;
+}
+}
